@@ -1,12 +1,13 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Ambiant-MATE
+Name=Ambiant-MATE-Orange
 Comment=Ambiant MATE theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Ambiant-MATE
-MetacityTheme=Ambiant-MATE
-IconTheme=Ambiant-MATE
+GtkTheme=Ambiant-MATE-Orange
+MetacityTheme=Ambiant-MATE-Orange
+#IconTheme=Ambiant-MATE
+IconTheme=Humanity
 CursorTheme=DMZ-White
 ButtonLayout=close,minimize,maximize:

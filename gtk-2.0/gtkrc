@@ -1,4 +1,4 @@
-gtk-color-scheme = "base_color:#ffffff\nfg_color:#4c4c4c\ntooltip_fg_color:#ffffff\nselected_bg_color:#87A752\nselected_fg_color:#FFFFFF\ntext_color:#3C3C3C\nbg_color:#F2F1F0\ntooltip_bg_color:#000000\nlink_color:#A7BB85"
+gtk-color-scheme = "base_color:#ffffff\nfg_color:#4c4c4c\ntooltip_fg_color:#ffffff\nselected_bg_color:#f07746\nselected_fg_color:#FFFFFF\ntext_color:#3C3C3C\nbg_color:#F2F1F0\ntooltip_bg_color:#000000\nlink_color:#DD4814"
 
 gtk-icon-sizes = "panel-menu=22,22:gtk-button=16,16"
 
@@ -559,7 +559,7 @@ style "soundfix"
 {
 }
 
-# Workaround style for places where the text color is used instead of the fg color.
+# Wrokaround style for places where the text color is used instead of the fg color.
 style "text_is_fg_color_workaround" {
 	text[NORMAL]      = @fg_color
 	text[PRELIGHT]    = @fg_color
@@ -568,7 +568,6 @@ style "text_is_fg_color_workaround" {
 	text[INSENSITIVE] = darker (@bg_color)
 }
 
-# Try changing @base_color to @fg_color to see if mozo is correct
 # Workaround style for menus where the text color is used instead of the fg color.
 style "menuitem_text_is_fg_color_workaround" {
 	text[NORMAL]        = @base_color
